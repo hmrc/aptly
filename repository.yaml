@@ -1,6 +1,65 @@
 repoVisibility: public_0C3F0CE3E6E6448FAD341E7BFA50FCD333E06A20CFF05FCACE61154DDBBADF71
 leakDetectionExemptions:
-  - ruleId: ' ip_addresses'
+  - ruleId: 'ip_addresses'
     filePaths:
-      - '/repository.yaml'
-
+      - /deb/deb_test.go
+      - /system/t04_mirror/SearchMirror1Test_gold
+      - /system/t04_mirror/SearchMirror5Test_gold
+      - /system/t05_snapshot/CreateSnapshot1Test_snapshot_show
+      - /system/t05_snapshot/DiffSnapshot2Test_gold
+      - /system/t05_snapshot/DiffSnapshot3Test_gold
+      - /system/t05_snapshot/FilterSnapshot3Test_snapshot_show
+      - /system/t05_snapshot/MergeSnapshot1Test_snapshot_show
+      - /system/t05_snapshot/MergeSnapshot3Test_snapshot_show
+      - /system/t05_snapshot/MergeSnapshot6Test_snapshot_show
+      - /system/t05_snapshot/MergeSnapshot7Test_snapshot_show
+      - /system/t05_snapshot/MergeSnapshot8Test_gold
+      - /system/t05_snapshot/MergeSnapshot9Test_snapshot_show
+      - /system/t05_snapshot/MergeSnapshot10Test_gold
+      - /system/t05_snapshot/PullSnapshot1Test_snapshot_show
+      - /system/t05_snapshot/PullSnapshot2Test_snapshot_show
+      - /system/t05_snapshot/PullSnapshot3Test_snapshot_show
+      - /system/t05_snapshot/PullSnapshot8Test_snapshot_show
+      - /system/t05_snapshot/PullSnapshot9Test_snapshot_show
+      - /system/t05_snapshot/PullSnapshot10Test_snapshot_show
+      - /system/t05_snapshot/PullSnapshot11Test_snapshot_show
+      - /system/t05_snapshot/SearchSnapshot1Test_gold
+      - /system/t05_snapshot/SearchSnapshot6Test_gold
+      - /system/t05_snapshot/VerifySnapshot4Test_gold
+      - /system/t05_snapshot/VerifySnapshot5Test_gold
+      - /system/t05_snapshot/VerifySnapshot6Test_gold
+      - /system/t05_snapshot/VerifySnapshot7Test_gold
+      - /system/t05_snapshot/VerifySnapshot8Test_gold
+      - /system/t05_snapshot/VerifySnapshot9Test_gold
+      - /system/t06_publish/PublishRepo1Test_binary
+      - /system/t06_publish/PublishSnapshot1Test_packages_amd64
+      - /system/t06_publish/PublishSnapshot1Test_packages_i386
+      - /system/t06_publish/PublishSnapshot17Test_binary
+      - /system/t06_publish/PublishSnapshot35Test_packages_udeb_amd64
+      - /system/t06_publish/PublishSnapshot35Test_packages_udeb_i386
+      - /system/t06_publish/PublishSwitch1Test_binary
+      - /system/t06_publish/PublishSwitch2Test_binary
+      - /system/t06_publish/PublishSwitch8Test_binaryA
+      - /system/t06_publish/PublishSwitch8Test_binaryB
+      - /system/t06_publish/PublishSwitch8Test_binaryC
+      - /system/t06_publish/PublishUpdate1Test_binary
+      - /system/t06_publish/PublishUpdate2Test_binary
+      - /system/t06_publish/PublishUpdate7Test_binary2
+      - /system/t06_publish/S3Publish1Test_binary
+      - /system/t06_publish/S3Publish2Test_binary
+      - /system/t06_publish/S3Publish3Test_binary
+      - /system/t06_publish/SwiftPublish1Test_binary
+      - /system/t06_publish/SwiftPublish2Test_binary
+      - /system/t06_publish/SwiftPublish3Test_binary
+      - /system/t09_repo/SearchRepo1Test_gold
+      - /system/t09_repo/SearchRepo5Test_gold
+      - /system/t11_package/SearchPackage1Test_gold
+      - /system/t11_package/SearchPackage5Test_gold
+      - /system/t11_package/ShowPackage1Test_gold
+      - /system/t11_package/ShowPackage3Test_gold
+      - /system/t11_package/ShowPackage4Test_gold
+      - /system/t11_package/ShowPackage5Test_gold
+      - /system/t11_package/ShowPackage6Test_gold
+      - /system/t12_api/repos.py
+      - /system/t12_api/snapshots.py
+ 
